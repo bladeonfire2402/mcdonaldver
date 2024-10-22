@@ -1,0 +1,72 @@
+header{
+    width: 100%;
+    height: 120px;
+}
+.head-navigation{
+    transform: translateY(-5px);
+    margin-bottom: 13px;
+}
+
+.logo{
+    width: 102px;
+}
+
+.navigation-menu{
+    width: max-content;
+}
+
+.navigation-menu li {
+    padding: 0px 35px 0px 0px;
+    list-style: none;
+}
+
+.navigation-menu li :hover{
+    color: #ffc836;
+}
+
+.othernav-btn{
+   width: 150px;
+   height: 48px ;
+   border-radius: 999px;
+   padding-left: 6px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   gap: 10px;
+}
+
+.othernav-btn img{
+    width: 36px;
+    height: 36px;
+    
+}
+
+.othernav-btn .othernavbtn-content p{
+    line-height: 0;
+    font-size: 12px;
+}
+
+.othernav-btn .othernavbtn-content span{
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.menudiscription{
+    height: 100px;
+}
+
+.submenu{
+    height: 300px;
+    bottom: 0px;
+    z-index: 50;
+}
+
+.connectwithinfo,.connectwithfood{
+    height: 200px;
+    width: 80%;
+    z-index: 50;
+}
+
+.main-menu-section li, .dersert-menu-section li,.mcoffee-menu-section li{
+    list-style: none;
+    padding-left: 0px;
+}

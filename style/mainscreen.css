@@ -1,0 +1,91 @@
+.Main{
+    margin-top: 30px;
+}
+
+.Main-screen{
+
+}
+
+.banner{
+    width: 76%;
+}
+
+.frist-banner img{
+    height: 280px;
+}
+
+.first-banner div{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+}
+
+.first-banner button{
+    width: 240px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.first-banner h2{
+    font-size: 32px;
+    line-height: 0.6;
+    letter-spacing: 2px;
+}
+
+.section-banner-2{
+    margin-top: 20px;
+}
+
+.McCafe-section img{
+    width: 100%;
+}
+
+.McCafe-section div{
+    bottom: 20px;
+    left: 40px;
+    font-size: 55px;
+    
+}
+
+.McDonald-story div, .McDonald-hire div,.McDonald-Hamburger div{
+    bottom: 20px;
+    left: 20px;
+}
+
+.McDelivery-section {
+    background: url(/assets/MC-delivery.png) center center no-repeat;
+    height: 300px;
+}
+
+.McDelivery-section h1{
+    font-size: 48px;
+    line-height: 0;
+}
+
+.btn-McDeliver{
+    width: 240px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.34;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: lighter;
+}
+
+
+
+.radius{
+    border-radius: 5px;
+}
+
+
+.margintop-30{
+    margin-top: 30px;
+}
+
