@@ -1,0 +1,48 @@
+.MC-Delivery-Header{
+    background-color: #bd0017;
+}
+
+.login-form{
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+}
+
+.login-form button:hover{
+    opacity: 0.8;
+}
+
+form input{
+    border-radius: 5px;
+}
+
+.userLog-popUps-screen{
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.userPopsUp-warn {
+    margin-top: 150px;
+    padding: 10px;
+    background-color: white;
+    width: 45%;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.userPopsUp-warn div button{
+    padding: 10px 20px;
+}
+
+.userPopsUp-warn div button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.userPopsUp-warn img{
+    width:200px;
+}

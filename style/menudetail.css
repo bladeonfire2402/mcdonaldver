@@ -1,3 +1,32 @@
 .food-item{
-    flex: 1 1 calc(25% - 10px);
+
+    overflow: hidden;
+    height: 380px;
+}
+
+.food-item img{
+    height: 200px;
+    
+}
+
+.food-item h3{
+    line-height: 0;
+}
+
+.detail-btn{
+    margin-top: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 90%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.food-item:hover .detail-btn{
+    margin-top: 0;
+}
+
+.food-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

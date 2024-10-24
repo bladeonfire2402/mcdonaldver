@@ -9,3 +9,35 @@ function NavigateToMainMenu(){
 function NavigateToCafe(){
     window.location.href='maincafe.html'
 }
+
+function NavigateToFoodDetail(){
+    window.location.href='fooddetail.html'
+}
+
+function NavigateToMenuDetail(){
+    window.location.href='menudetail.html'
+}
+
+function NavigateToHistory(){
+    window.location.href='history.html'
+}
+
+function NavigateToStoreLocation(){
+    window.location.href='storelocation.html'
+    
+}
+
+function NavigateToMcDeliver() {
+    window.location.href = '../McDelivery/McDeliver.html';
+}
+
+
+
+
+function NavigateToMcRegister(){
+     window.location.href='../mcDelivery/mcRegister.html'
+}
+
+
+var IsLogin=false
+

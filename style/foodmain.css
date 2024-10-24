@@ -8,11 +8,7 @@
     transform: translateX(-50%); 
 }
 
-.grid-1vs2{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Tạo 2 cột với kích thước bằng nhau */
-    
-}
+
 
 .food-content-bruh button{
     border: 1px solid red;

@@ -1,0 +1,44 @@
+.fooddetails-container{
+    width: 1200px;
+    overflow: hidden;
+    height: 400px;
+    float: right;
+}
+
+.food-slider-item{
+    height: 320px;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 19%; /* Kích thước của từng item */
+    margin: 20px 10px; /* Khoảng cách giữa các item */
+
+}
+
+.food-slider-item button{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+}
+
+.food-slider-item:hover button{
+    display: block;
+
+}
+
+.movenext ,.moveforward{
+    top: 50%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.movenext{
+    right: 5%;
+}
+
+.moveforward{
+    left: 5%;
+}

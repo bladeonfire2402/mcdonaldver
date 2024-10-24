@@ -1,0 +1,82 @@
+
+.storelocation-screen{
+    height: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+  }
+  
+  /* Nút bấm của dropdown */
+  .dropbtn {
+
+    width: 100%;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-btn{
+    width: 15%;
+  }
+  
+  /* Nội dung của dropdown (ẩn ban đầu) */
+  .dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Link bên trong dropdown */
+  .dropdown-content button {
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Thay đổi màu khi hover vào link */
+  .dropdown-content button:hover {background-color: #f1f1f1;}
+  
+  /* Hiển thị dropdown khi hover vào container */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Thay đổi màu nút khi hover */
+  .dropdown:hover .dropbtn {
+    background-color: #2980b9;
+  }
+
+  .StoreLocation-Items{
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+
+  .StoreLocation-Items div a{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .StoreLocation-Items div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .StoreLocation-Items:hover{
+    border: 1px solid red;
+  }

@@ -1,0 +1,29 @@
+.history-wrapper{
+    height: 550px;
+    overflow: hidden;
+}
+
+.history-wrapper img{
+    width: fit-content;
+    height: 550px;
+    width: 100%;
+    max-width: 100%;
+    object-fit:fill;
+}
+
+.history-wrapper div{
+    bottom: 20%;
+}
+
+.history-wrapper h2 {
+    font-size: 30px;
+    margin-bottom: -10px;
+
+}
+
+.history-wrapper h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+

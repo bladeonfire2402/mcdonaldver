@@ -14,7 +14,7 @@ function showSlides(index) {
 }
 
 function autoChangeSlide(index){
-    setInterval=document.querySelectorAll('.slide')
+    setInterval()
     
 }
 

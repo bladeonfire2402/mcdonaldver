@@ -2,6 +2,8 @@
     --primary-color: #bd0017; /* Storing a blue color */
     --secondary-color:#ffc836;
     --all-white:#fff;
+    --thirdly-color:#f1072a;
+    --mc-color:#3d3d3d;
 }
 
 .triangle {
@@ -11,7 +13,26 @@
     border-right: 50px solid transparent;
     border-top: 40px solid var(--primary-color);
   }
-  
+
+.radius{
+    border-radius: 5px;
+}
+
+.radius-pro{
+    border-radius: 20px;
+}
+
+.bor-l{
+    border-left: 1px solid black;
+}
+
+.bor-r{
+    border-right: 1px solid black;
+}
+
+.border-none{
+    border: none;
+}
 
 .line{
     width: 100%;
@@ -29,11 +50,26 @@
 }
 
 .grid-1vs4{
-    grid-template-columns: 1fr 2fr; /* Tạo 2 cột với kích thước bằng nhau */
+    grid-template-columns: repeat(4, 1fr);
 }
+
+.grid-1vs2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Tạo 2 cột với kích thước bằng nhau */
+    
+}
+
 
 .flex{
     display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.over-hidden{
+    overflow: hidden;
 }
 
 .block{
@@ -57,12 +93,51 @@
     padding: 10px;
 }
 
+
 .p-20{
     padding: 20px;
 }
 
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-35{
+    padding-top: 35px;
+}
+
+.pb{
+    padding-bottom: 5px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-35{
+    padding-bottom: 35px;
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 .gap-10{
-    gap: 10px   ;
+    gap: 10px;
+}
+
+.gap-25{
+    gap: 25px   ;
 }
 
 .gap-15{
@@ -112,6 +187,12 @@
     background-color: #191919;
 }
 
+
+
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
 .bg-dark-gray{
     background-color: rgba(25, 25, 25, .8);
 }
@@ -122,6 +203,14 @@
 
 .bg-primary{
     background-color: var(--primary-color);
+}
+
+.bg-thirdly{
+    background-color: var(--thirdly-color);
+}
+
+.bg-mc{
+    background-color: var(--mc-color);
 }
 
 .bg-transparent{
@@ -152,12 +241,20 @@
     color: var(--secondary-color);
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 .decoration-none{
     text-decoration: none;
 }
 
 .cursor-pointer{
     cursor: pointer;
+}
+
+.cursor-default{
+    cursor: default;
 }
 
 .ml-10{
@@ -176,13 +273,31 @@
     width: 50%;
 
 }
-
+.w-5phan12{
+    width: 44%;
+}
 .w-3phan12{
     width: 25%;
 }
 
 .w-8phan12{
     width: 66%;
+}
+
+.w-80per{
+    width: 80%;
+}
+
+.h-150px{
+    height: 150px;
+}
+
+.h-200px{
+    height: 200px;
+}
+
+.h-80per{
+    height: 80%;
 }
 
 .h-full{

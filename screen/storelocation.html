@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/style/banner.css">
     <link rel="stylesheet" href="/style/history.css">
     <link rel="stylesheet" href="/style/location.css">
-    <title>Liên hệ</title>
+    <link rel="stylesheet" href="/style/storelocation.css">
+    <title>Danh sách cửa hàng</title>
 </head>
 <body>
     <header class="header bg-black relative  align-center flex flex-col p-0">
@@ -35,7 +36,7 @@
                     <a href="/screen/news.html" class="text-white cursor-pointer decoration-none menu-text font-light news-navigation">Tin tức</a>
                 </li>
                 <li>
-                    <a href="" class="text-white cursor-pointer decoration-none menu-text font-light contact-navigation text-secondary">Liên hệ</a>
+                    <a href="" class="text-white cursor-pointer decoration-none menu-text font-light contact-navigation ">Liên hệ</a>
                 </li>
             </ul>
            
@@ -112,14 +113,40 @@
     <div class="w-full location relative">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2448365976393!2d106.69390487596537!3d10.792550731480617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529c032abd229%3A0x3f28cabceeca1a32!2sMcDonald&#39;s%20%C4%90a%20Kao!5e0!3m2!1svi!2s!4v1729665740031!5m2!1svi!2s"  height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="absolute bg-white p-20 radius">
-            <h2 class="text-primary">Trụ sở của ChickenFast</h2>
-            <p>Địa chỉ: <strong>2-6 Bis Điện Biên Phủ, P.Đa Kao, Quận 1, Tp Hồ Chí</strong></p>
+            <h2 class="text-primary agency">Trụ sở của ChickenFast</h2>
+            <p>Địa chỉ: <strong class="location">2-6 Bis Điện Biên Phủ, P.Đa Kao, Quận 1, Tp Hồ Chí</strong></p>
             <p>Tổng đài chăm sóc khách hàng:<strong class="text-primary">1900 9001</strong></p>
             <p>Email:<strong class="text-primary"'>1900 9001</strong></p>
         </div>
     </div>
-
-    <div class="flex flex-col  align-center">
+    
+    <div class="storelocation-screen ">
+        <h1 class="text-center">Hệ thống cửa hàng</h1>
+        <div class="flex justify-center">
+            <div class="container  ">
+                <div class="flex justify-center gap-20">
+                    <div class="dropdown radius">
+                        <button class="dropbtn bg-primary default radius"></button>
+                        <div class="dropdown-content">
+                          <button class="HCM" onclick="ChangeHCM()">Hồ Chí Minh</button>
+                          <button class="TD" onclick="ChangeTD ()">Thủ Đức</button>
+                          <button class="DN"onclick="ChangeDN()">Đà Nẵng</button>
+                          <button class="HN" onclick="ChangeTD ()">Hà Nội</button>
+                        </div>
+                      </div>                
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-30">
+            <div class="container mt-20 ">
+                <div class="grid-1vs2 gap-10  storelocation-item-list">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex flex-col  align-center mt-20">
         <div class="footer">
             <div class=" flex font-light justify-between mt-25">
                 <div class="w-3phan12">
@@ -140,29 +167,6 @@
                 </div>
         </div>
         <div class="line mt-35 "/></div>
-        <div class="contact-content mt-30">
-            <div class="flex contact-form justify-between    ">
-                
-                <form class="w-1phan2 ">
-                    <h1 class="font-light cursor-default">Liên hệ với chúng tôi</h1>
-                    <p class="cursor-default">Họ và tên</p>
-                    <input type="text" required placeholder="Họ và tên" class="radius w-full p-10">
-                    <p class="cursor-default">Email</p>
-                    <input type="text" required placeholder="Họ và tên" class="radius w-full p-10">
-                    <p class="cursor-default">Phone</p>
-                    <input type="text" required placeholder="Họ và tên" class="radius w-full p-10">
-                    <p class="cursor-default">Tiêu đề liên hệ</p>
-                    <input type="text" required placeholder="Liên hệ dịch vụ" class="radius w-full p-10">
-                    <input type="submit" class="mt-35">
-
-                </form>
-                <div class="w-1phan2 flex justify-center">
-                    <img class="h-80per radius-pro" src="https://mcdonalds.vn/public/images/contact.png" alt="">
-                </div>
-            </div>
-        </div>
-
-
         <div class="flex">
             <div class="w-3phan12 footer-info-menu">
                 <h3>Tìm hiểu</h3>
@@ -208,6 +212,9 @@
         </div>
     </div>
     
+
+
+    <script src="/js/storelocation.js"></script>
     
 </body>
 </html>
