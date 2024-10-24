@@ -1,0 +1,21 @@
+.register-form input{
+    width: 100%;
+    padding:10px 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+
+.register-form label{
+    font-weight: bold;
+}
+
+.term-section input,.term-section label{
+    width: fit-content;
+}
+
+.promotion-banner img{
+    width: 250px;
+    height: auto;
+}
