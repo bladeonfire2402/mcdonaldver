@@ -46,3 +46,13 @@ form input{
 .userPopsUp-warn img{
     width:200px;
 }
+.Mc-Delivery-screen footer ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.Mc-Delivery-screen footer ul{
+    padding-inline-start: 0px;
+}
