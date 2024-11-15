@@ -1,0 +1,202 @@
+.mc-menu{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.category-box{
+    padding-left: 10px;
+    padding-right: 80px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 150px;
+    color: white;
+}
+
+.menu-p{
+    margin-left: 20px;
+}
+
+.categori-option{
+    width: 240px;
+    height: fit-content;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 phần tử mỗi hàng */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+.categori-option .item{
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.mt-1{
+    margin-top: 1px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+   background-color: white;
+   margin-right: 8px;
+}
+
+.product-sections .product-items .produc-img{
+    width: 237px;
+    height: auto;
+}
+
+.product-sections .product-items{
+    padding: 10px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+.controls button {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Màu xanh cho nút thêm */
+    color: white;
+    border: none;
+    padding: 5px 11px;
+    border-radius: 5px;
+    border-radius: 999px;
+}
+
+.controls button#removeButton {
+    background-color: #f44336; /* Màu đỏ cho nút xóa */
+}
+
+.controls div#counter {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-form{
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Bố cục chính của phần hóa đơn */
+.invoice-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.order-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #4CAF50;
+}
+
+/* Chi tiết thanh toán */
+.payment-details p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.payment-details .total {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Nút thanh toán */
+.checkout-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #45a049;
+}
+
+/* Mã khuyến mãi */
+.coupon {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.coupon a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.coupon a:hover {
+    text-decoration: underline;
+}
+
+/* Chi tiết đơn hàng */
+.order-details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.order-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.order-details p {
+    color: #888;
+}
+
+/* Căn chỉnh chiều rộng */
+.w-3phan12 {
+    width: 25%; /* Tùy chọn để căn chỉnh chiều rộng, có thể thay đổi tùy theo yêu cầu */
+}

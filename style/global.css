@@ -4,6 +4,7 @@
     --all-white:#fff;
     --thirdly-color:#f1072a;
     --mc-color:#3d3d3d;
+    --blue:#33CCFF
 }
 
 .triangle {
@@ -210,8 +211,6 @@
     background-color: #191919;
 }
 
-
-
 .bg-secondary{
     background-color: var(--secondary-color);
 }
@@ -244,6 +243,10 @@
     font-size: 18px;
 }
 
+.text-blue{
+    color: var(--blue);
+}
+
 .text-white{
     color: white;
 }
@@ -268,6 +271,10 @@
 
 .font-light{
     font-weight: lighter;
+}
+
+.font-bold{
+    font-weight: bold;
 }
 
 .text-secondary{
@@ -317,10 +324,22 @@
     width: 66%;
 }
 
+.w-70per{
+    width: 70%;
+}
+
 .w-80per{
     width: 80%;
 }
 
+.w-20per{
+    width: 20%;
+
+}
+.w-60per{
+    width: 60%;
+
+}
 .h-150px{
     height: 150px;
 }

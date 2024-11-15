@@ -8,10 +8,196 @@
     <link rel="stylesheet" href="/style/mcdelivery.css">
     <link rel="stylesheet" href="/style/banner.css">
     <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/McMenu.css">
+
+    
 </head>
 <body>
-    <div class="flex justify-center">
+    <div class="Mc-Menu justify-center">
+        <div class="flex justify-center ">
+            <div class="container MC-Delivery-Header-top cusor-pointer">
+                <div class="flex gap-20">
+                    <p class="cusor-pointer">Đăng nhập</p>
+                    <p>|</p>
+                    <p class="cusor-pointer">Hàng Đặt</p>
+                    <p>|</p>
+                    <p class="cusor-pointer">Tìm kiếm đơn</p>
+                </div>
+                <div class="MC-Delivery-Header flex align-center radius over-hidden">
+                    <div class="flex-1 flex bg-primary justify-center" onclick="NavigateToMcDeliver()">
+                       <img src="https://mcdelivery.vn/vn//static/1724754482442/assets/84/img/mcdelivery_logo_en.jpg" alt="">
+                    </div>
+                    <div class="flex-1 text-white bg-mc h-full flex  justify-center bor-r text-secondary" onclick=" NavigateToMcMenu()">
+                        <h2 class="cursor-pointer">Menu</h2>
+                    </div>
+                    <div class="flex-1 text-white bg-mc h-full flex  justify-center" onclick="NavigateToMcProfile()">
+                        <h2 class="cursor-pointer">Tài khoản của tôi</h2>
+                    </div>
+                </div>
         
+            </div>
+        </div>
+        <div class="flex flex-col align-center justify-center mc-menu">
+            <div class="container flex align-center mt-10">
+                <div class="category-box bg-secondary">
+                    <h3>Danh mục</h3>
+                </div>
+                <div class="text-blue menu-p">Menu</div>
+            </div>
+            <div class="container flex mt-1 justify-between">
+                <div class="categori-option bg-secondary">
+                    <div class="flex align-center item">
+                        <div class="dot"></div>
+                        <h3>Promotions</h3>
+                    </div>
+                    <div class="flex align-center item">
+                        <div class="dot"></div>
+                        <h3>Promotions</h3>
+                    </div>
+                    <div class="flex align-center item">
+                        <div class="dot"></div>
+                        <h3>Promotions</h3>
+                    </div>
+                    <div class="flex align-center item">
+                        <div class="dot"></div>
+                        <h3>Promotions</h3>
+                    </div>
+                    
+                </div>
+                <div class="product-sections grid-container w-70%">
+                    <div class="product-items flex flex-col">
+                        <img class="produc-img" src="/assets/img/burger.png"/>
+                        <div class="flex mt-10 justify-between">
+                            <p class="font-bold"> 139000 VND</p>
+                            <div class="controls flex align-center gap-10">
+                                <button id="addButton">+</button>
+                                <div>0</div>
+                                <button id="removeButton">-</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-items flex flex-col">
+                        <img class="produc-img" src="/assets/img/burger.png"/>
+                        <div class="flex mt-10 justify-between">
+                            <p class="font-bold"> 139000 VND</p>
+                            <div class="controls flex align-center gap-10">
+                                <button id="addButton">+</button>
+                                <div>0</div>
+                                <button id="removeButton">-</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-items flex flex-col">
+                        <img class="produc-img" src="/assets/img/burger.png"/>
+                        <div class="flex mt-10 justify-between">
+                            <p class="font-bold"> 139000 VND</p>
+                            <div class="controls flex align-center gap-10">
+                                <button id="addButton">+</button>
+                                <div>0</div>
+                                <button id="removeButton">-</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-items flex flex-col">
+                        <img class="produc-img" src="/assets/img/burger.png"/>
+                        <div class="flex mt-10 justify-between">
+                            <p class="font-bold"> 139000 VND</p>
+                            <div class="controls flex align-center gap-10">
+                                <button id="addButton">+</button>
+                                <div>0</div>
+                                <button id="removeButton">-</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="invoice-section w-3phan12">
+                    <div class="order-form p-20">
+                        <h2 class="text-center">My Order</h2>
+                        
+                        <form action="#" method="post">
+                            <!-- Địa chỉ giao hàng -->
+                            <div class="form-group flex flex-col">
+                                <label for="address">Deliver To:</label>
+                                <input type="text" id="address" name="address" placeholder="Enter delivery address" required>
+    
+                            </div>
+                
+                            <!-- Số điện thoại liên hệ -->
+                            <div class="form-group flex flex-col">
+                                <label for="contact">Contact Number:</label>
+                                <input type="tel" id="contact" name="contact" placeholder="Enter contact number" required>
+                              
+                            </div>
+                
+                            <!-- Thời gian giao hàng ước tính -->
+                          
+                
+                            <!-- Chi tiết thanh toán -->
+                            <div class="payment-details">
+                                <p>Sub Total: <span>VND 0</span></p>
+                                <p>Delivery Charge: <span>VND 0</span></p>
+                                <p>Tax: <span>VND 0</span></p>
+                                <p class="total">Total: <span>VND 0</span></p>
+                            </div>
+                
+                            <!-- Nút thanh toán -->
+                            <button type="submit" class="checkout-button ">CHECKOUT</button>
+                        </form>
+                
+                        <!-- Mã khuyến mãi -->
+                        <div class="coupon">
+                            <a href="#">Got a coupon code?</a>
+                        </div>
+                
+                        <!-- Chi tiết đơn hàng -->
+                        <div class="order-details">
+                            <h3>Order Details</h3>
+                            <p>No items have been added</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer class="flex justify-center mt-10 bg-black">
+            <div class="container mb-20 text-white flex justify-between cursor-pointer">
+                <div >
+                    <h3 class="font-bold">Menu</h3>
+                </div>
+                <div class="">
+                    <h3 class="font-bold">Support</h3>
+                    <ul>
+                        <li>Terms & Conditions</li>
+                        <li>Chính sách bảo mật</li>
+                        <li>Chính sách đặt hàng</li>
+                        <li>FAQ</li>
+                        <li>Liên hệ với chúng tôi</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="font-bold">Theo dõi ngay</h3>
+                    <div class="flex">Facebook</div>
+                    <div class="flex">Youtube</div>
+                    <div class="flex">Instagram</div>
+                    
+                 
+                </div>
+            </div>
+        </footer>
+       
     </div>
+    <script src="/js/navigate.js"></script>
+    
 </body>
 </html>
