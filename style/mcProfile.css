@@ -1,0 +1,21 @@
+.text-box{
+    padding: 10px 10px;
+    width: 90%;
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+}
+
+.text-box-pro{
+    padding: 10px 10px;
+    width: 95%;
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+
+}
+
+.order-items img{
+    width: 200px;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}

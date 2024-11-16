@@ -31,7 +31,9 @@ function NavigateToMcDeliver() {
     window.location.href = '../McDelivery/McDeliver.html';
 }
 
-
+function NavigateToMcProfile(){
+    window.location.href='../mcDelivery/mcProfile.html';
+}
 
 
 function NavigateToMcRegister(){
