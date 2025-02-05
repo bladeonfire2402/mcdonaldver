@@ -56,3 +56,91 @@
     width: 30%;
     height: 80%;
 }
+/* Layout tổng thể của parent */
+.parent {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Tin chính chiếm 3 phần, tin phụ chiếm 1 phần */
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+/* Tin chính */
+.div1 {
+    grid-column: 1 / span 1; /* Chiếm cột đầu tiên */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div1 img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.div1 h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.div1 .btn-detail {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tin phụ */
+.div2 {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.div2 img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.news-content h3 {
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.news-content p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr; /* Trên màn hình nhỏ, các tin xếp dọc */
+    }
+
+    .div1 {
+        grid-column: 1 / span 1;
+    }
+
+    .div2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .div2 img {
+        width: 100%;
+        height: auto;
+    }
+}

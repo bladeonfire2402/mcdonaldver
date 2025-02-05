@@ -6,7 +6,7 @@
     left: 0;
     bottom: -80px;
     width: 45%;
-    background: url(/assets/img/include.png);
+    background: url(../assets/img/include.png);
     background-repeat: no-repeat;
     object-fit: cover;
 }

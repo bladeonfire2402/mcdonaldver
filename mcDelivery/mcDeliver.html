@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/global.css">
-    <link rel="stylesheet" href="/style/mcdelivery.css">
-    <link rel="stylesheet" href="/style/banner.css">
-    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/mcdelivery.css">
+    <link rel="stylesheet" href="../style/banner.css">
+    <link rel="stylesheet" href="../style/index.css">
     <title>McDelivery</title>
 </head>
 
@@ -46,24 +46,24 @@
                 <div class="slider">
                     <div class="slides">
                         <div class="slide active">
-                            <img src="/assets/img/slider/sliderImg.png" alt="Slide 1">
+                            <img src="../assets/img/slider/sliderImg.png" alt="Slide 1">
                         </div>
                         <div class="slide">
-                            <img src="/assets/img/slider/sliderImg1.png" alt="Slide 2">
+                            <img src="../assets/img/slider/sliderImg1.png" alt="Slide 2">
                         </div>
                         <div class="slide">
-                            <img src="/assets/img/slider/sliderImg2.png" alt="Slide 3">
+                            <img src="../assets/img/slider/sliderImg2.png" alt="Slide 3">
                         </div>
                     </div>
                     <button class="prev btnSlides" onclick="changeSlide(-1)">&#10094;</button>
                     <button class="next btnSlides" onclick="changeSlide(1)">&#10095;</button>
-                    <script src="/js/banner.js"></script>
+                    <script src="../js/banner.js"></script>
                 </div>
             </div>
 
             <div class="absolute login-form radius">
                 <div class="bg-white flex flex-col align-center p-10 radius">
-                    <h2>Đăng nhập vào McDelivery</h2>
+                    
                     <form class="w-full px-10 flex flex-col">
                         <input class="p-10 mb-10" required type="email" placeholder="Nhập email" >
                         <input class="p-10 mb-10" required type="password" placeholder="Nhập password" >
@@ -126,7 +126,7 @@
     <div class="userLog-popUps-screen absolute flex justify-center no-display" >
         <div class="userPopsUp-warn flex flex-col align-center">
             <h1 class="text-center text-primary">Vui lòng đăng nhập hoặc đăng kí</h1>
-            <img src="/assets/img/burger.png" alt="">
+            <img src="../assets/img/burger.png" alt="">
             <div class="flex gap-10 mt-20">
                 <button class="close mb-10 bg-primary text-white radius border-none uppercase" >Quay lại</button>
                 <button class=" border-none mb-10 radius uppercase" onclick="NavigateToMcRegister()">Đăng kí</button>
@@ -135,8 +135,8 @@
 
     </div>
 
-    <script src="/js/popUps.js"></script>
-    <script src="/js/navigate.js"></script>
+    <script src="../js/popUps.js"></script>
+    <script src="../js/navigate.js"></script>
     
 </body>
 </html>

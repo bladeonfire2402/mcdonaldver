@@ -25,3 +25,4 @@ function changeSlide(n) {
 
 // Initialize the slider
 showSlides(currentSlide);
+

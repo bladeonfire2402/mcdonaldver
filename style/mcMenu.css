@@ -200,3 +200,10 @@
 .w-3phan12 {
     width: 25%; /* Tùy chọn để căn chỉnh chiều rộng, có thể thay đổi tùy theo yêu cầu */
 }
+.meal-image {
+    width: 150px; /* Đặt chiều rộng phù hợp với hình 2 */
+    height: 150px; /* Đặt chiều cao phù hợp với hình 2 */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    border-radius: 8px; /* Bo góc (nếu cần) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}

@@ -15,7 +15,7 @@ function NavigateToFoodDetail(){
 }
 
 function NavigateToMenuDetail(){
-    window.location.href='menudetail.html'
+    window.location.href='menudetail.php'
 }
 
 function NavigateToHistory(){
