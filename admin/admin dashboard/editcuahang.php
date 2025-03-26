@@ -68,7 +68,7 @@ if (isset($_POST['btnUpdate'])) {
                             <div class="form-group">
                                 <input type="text" class="form-control form-control-user" id="link_nhung" name="link_nhung" placeholder="Link nhúng Google Maps" value="<?php echo $cua_hang['link_nhung']; ?>">
                             </div>
-                            <button type="submit" class="btn btn-primary" name="btnUpdate">Cập nhật</button>
+                            <button type="submit" id="btn-update-store" class="btn btn-primary" name="btnUpdate">Cập nhật</button>
                         </form>
                         <hr>
                     </div>

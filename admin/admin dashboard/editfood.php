@@ -110,7 +110,7 @@ if (isset($_POST['btnUpdate'])) {
                                     ?>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block" name="btnUpdate">Cập nhật</button>
+                            <button type="submit" id="btn-update-food" class="btn btn-primary btn-user btn-block" name="btnUpdate">Cập nhật</button>
                         </form>
                     </div>
                 </div>

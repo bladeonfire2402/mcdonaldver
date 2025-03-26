@@ -57,7 +57,7 @@ $gia = $order['gia']; // Giả sử 'total_price' là trường chứa tổng ti
                                 <option value="Cancelled" <?= $order['status'] == 'Cancelled' ? 'selected' : '' ?>>Cancelled</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-primary" name="btnUpdate">Cập nhật trạng thái</button>
+                        <button type="submit" id="btn-update-status" class="btn btn-primary" name="btnUpdate">Cập nhật trạng thái</button>
                     </form>
                 </div>
 

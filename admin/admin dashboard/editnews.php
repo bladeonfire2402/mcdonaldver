@@ -97,7 +97,7 @@ if (isset($_POST['btnUpdate'])) {
                     <label for="ngay_dang">Ngày đăng:</label>
                     <input type="date" class="form-control" id="ngay_dang" name="ngay_dang" value="<?php echo $news['ngay_dang']; ?>" max="<?php echo $today; ?>" required>
                 </div>
-                <button type="submit" class="btn btn-primary" name="btnUpdate">Cập nhật</button>
+                <button type="submit" id="btn-update-news" class="btn btn-primary" name="btnUpdate">Cập nhật</button>
             </form>
         </div>
     </div>

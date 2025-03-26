@@ -27,7 +27,7 @@ require('./include/header.php');
                             <div class="form-group">
                                 <textarea class="form-control form-control-user" id="mo_ta" name="mo_ta" placeholder="Mô tả khuyến mãi"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Tạo mới</button>
+                            <button type="submit" id="btn-add-store" class="btn btn-primary btn-user btn-block">Tạo mới</button>
                             <hr>
                         </form>
                     </div>

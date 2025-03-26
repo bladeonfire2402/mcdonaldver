@@ -32,7 +32,7 @@ require('./include/header.php');
                             <div class="form-group">
                                 <input type="text" class="form-control form-control-user" id="embed_google_map" name="embed_google_map" placeholder="Link nhúng Google Maps">
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Tạo mới</button>
+                            <button type="submit" id="btn-add-store" class="btn btn-primary btn-user btn-block">Tạo mới</button>
                             <hr>
                         </form>
                     </div>

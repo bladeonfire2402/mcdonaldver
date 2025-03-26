@@ -66,7 +66,7 @@ if (isset($_POST['btnUpdate'])) {
                             <div class="form-group">
                                 <textarea class="form-control form-control-user" id="mo_ta" name="mo_ta" placeholder="Mô tả khuyến mãi" rows="4"><?php echo $khuyen_mai['mo_ta']; ?></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block" name="btnUpdate">Cập nhật</button>
+                            <button type="submit" id="btn-update-discount" class="btn btn-primary btn-user btn-block" name="btnUpdate">Cập nhật</button>
                             <hr>
                         </form>
                     </div>

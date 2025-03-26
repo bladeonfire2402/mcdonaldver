@@ -39,7 +39,7 @@ require('./include/header.php');
                                     ?>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Tạo mới</button>
+                            <button type="submit" id="btn-add-food" class="btn btn-primary btn-user btn-block">Tạo mới</button>
                             <hr>
                         </form>
                     </div>

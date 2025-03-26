@@ -54,7 +54,7 @@ if (isset($_POST['btnUpdate'])) {
                     <label for="ten_danh_muc">Tên danh mục:</label>
                     <input type="text" class="form-control" id="ten_danh_muc" name="ten_danh_muc" value="<?php echo htmlspecialchars($category['ten_danh_muc']); ?>" required>
                 </div>
-                <button type="submit" class="btn btn-primary" name="btnUpdate">Cập nhật</button>
+                <button type="submit" class="btn btn-primary" id="btn-edit-category" name="btnUpdate">Cập nhật</button>
             </form>
         </div>
     </div>
