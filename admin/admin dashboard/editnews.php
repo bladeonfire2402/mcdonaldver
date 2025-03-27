@@ -91,7 +91,7 @@ if (isset($_POST['btnUpdate'])) {
                 </div>
                 <div class="form-group">
                     <label for="content">Nội dung:</label>
-                    <textarea class="form-control" id="content" name="content" rows="5" required><?php echo htmlspecialchars($news['content']); ?></textarea>
+                    <textarea class="form-control" id="update-input-content" name="content" rows="5" required><?php echo htmlspecialchars($news['content']); ?></textarea>
                 </div>
                 <div class="form-group">
                     <label for="ngay_dang">Ngày đăng:</label>

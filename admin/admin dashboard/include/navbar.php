@@ -45,14 +45,14 @@
 
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
-        aria-expanded="true" aria-controls="collapseThree">
+        aria-expanded="true" aria-controls="collapseThree" id="navbar_toCategory">
         <i class="fas fa-calendar-day"></i>
         <span>Danh mục đồ ăn</span>
     </a>
     <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Main Function: </h6>
-            <a class="collapse-item" href="listdanhmucdoan.php">Liệt kê</a>
+            <a class="collapse-item" href="listdanhmucdoan.php" id="listcategory-href">Liệt kê</a>
         </div>
     </div>
 </li>
@@ -74,15 +74,15 @@
 
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFive"
-        aria-expanded="true" aria-controls="collapseFive">
+        aria-expanded="true" aria-controls="collapseFive" id="navBar_toFood">
         <i class="fas fa-hamburger"></i>
         <span>Món ăn</span>
     </a>
     <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Main Function: </h6>
-            <a class="collapse-item" href="listmonan.php">Liệt kê</a>
-            <a class="collapse-item" href="themmonan.php">Thêm mới</a>
+            <a class="collapse-item" href="listmonan.php" id="listfood_href">Liệt kê</a>
+            <a class="collapse-item" href="themmonan.php" id="addfood_href">Thêm mới</a>
         </div>
     </div>
 </li>
@@ -102,7 +102,7 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSevent"
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSevent" id="btn_access_news"
         aria-expanded="true" aria-controls="collapseSevent">
         <i class="fas fa-newspaper"></i>
         <span>Tin tức</span>
@@ -110,8 +110,8 @@
     <div id="collapseSevent" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Main Function: </h6>
-            <a class="collapse-item" href="listnews.php">Liệt kê</a>
-            <a class="collapse-item" href="themtintuc.php">Thêm mới</a>
+            <a class="collapse-item" href="listnews.php" id="btn_list_news">Liệt kê</a>
+            <a class="collapse-item" href="themtintuc.php" id="btn_news_add">Thêm mới</a>
         </div>
     </div>
 </li>
