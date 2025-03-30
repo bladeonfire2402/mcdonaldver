@@ -59,15 +59,15 @@
 
 <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour"
-        aria-expanded="true" aria-controls="collapseFour">
+        aria-expanded="true" aria-controls="collapseFour" id="btn_access_discount">
         <i class="fas fa-ad"></i>
         <span>Khuyến mãi</span>
     </a>
     <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Main Function: </h6>
-            <a class="collapse-item" href="listmagiamgia.php">Liệt kê</a>
-            <a class="collapse-item" href="themmagiamgia.php">Thêm mới</a>
+            <a class="collapse-item" href="listmagiamgia.php" id="btn_list_discount">Liệt kê</a>
+            <a class="collapse-item" href="themmagiamgia.php" id="btn_add_discount">Thêm mới</a>
         </div>
     </div>
 </li>
